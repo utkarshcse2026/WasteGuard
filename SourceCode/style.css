@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: darkolivegreen;
+    padding: 2px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+section {
+    padding: 20px;
+}
+
+
+
+/* Add this to your existing CSS or create a new CSS file and link it in your HTML */
+nav a img {
+    width: 55px; /* Adjust the size as needed */
+    height: 35px; /* Adjust the size as needed */
+}
+
+#topRightButton {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding around text */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No text decoration */
+    display: inline-block; /* Display as an inline block element */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor on hover */
+}
+
+#topRightButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif; /* Specify the desired font family for h1 */
+}
+
+p {
+  font-family: 'Times New Roman', serif; /* Specify the desired font family for paragraphs */
+}
+
+/* Add more styles for other elements as needed */
+
+
+.sticky-footer {
+    /* Your sticky footer styles */
+}
+
+/* carousel h yaha se */
+
+#topRightButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif; /* Specify the desired font family */
+}
+
+#topRightButton:hover {
+  background-color: #45a049;
+  text-decoration: underline; /* Underline on hover */
+}
+
+h1 {
+  font-family: 'Helvetica', sans-serif; /* Specify the desired font family for h1 */
+}
+
+p {
+  font-family: 'Times New Roman', serif; /* Specify the desired font family for paragraphs */
+}
+
+/* Add more styles for other elements as needed */
+
