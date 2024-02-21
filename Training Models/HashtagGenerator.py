@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 ##########################################
 #
-# HashtagGenerator.py: A simple python script to extract hashtags from long text
+# HashtagFinder.py: A python script to extract hashtags from long text
 #                      using LDA model from GenSim
-# This file is distribuited under the terms of GNU General Public
-#
 #########################################
 
 from __future__ import print_function
