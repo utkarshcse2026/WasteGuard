@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#mapDiv {
+  display: flex;
+}
+
+
+#map {
+  width: 70%;
+  height: 100vh;
+}
+
+/* Adjust width as needed */
+#sidebar {
+  width: 30%;
+  color: black;
+  height: 100vh;
+}
